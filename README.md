@@ -1,9 +1,9 @@
-#READ FEED SHOPIFY
+# READ PRODUCTS FEED SHOPIFY
 
-bundle install
+`bundle install`
 
 
 
-zhopify = Zhopify::Feed.new("domain.myshopify.com")
+`zhopify = Zhopify::Feed.new("domain.myshopify.com")
 
-puts zhopify.retrieve_products
+puts zhopify.retrieve_products`
